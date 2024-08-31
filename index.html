@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>CozyCup Café</title>
+    <script src="script.js"></script>
 </head>
+
+<link rel="icon" type="image/png" href="img/logo.png"><!--Favicon of the page-->
+
 <body>
     <header>
         <nav>
@@ -14,36 +18,84 @@
             </div>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!--Homepage content-->
     <section id="home" class="hero">
-        <h1>Welcome to CozyCup Café</h1>
-        <p>Discover Your Perfect Brew</p>
-        <a href="#menu" class="cta-button">Explore Menu</a>
+        <div class="home_section home_text">
+            <h1>Welcome to CozyCup Café</h1>
+            <p>Sip, Relax, Repeat.</p>
+            <a href="menu.html" class="cta-button">Explore Menu</a><br>
+        </div>
+        <a href="menu.html" style="all:unset">
+            <div class="home_section home_best_seller">
+                <h1 style="grid-column-start: 1; grid-column-end: 6; font-size: 40px;;">Best Seller!</h1>
+                <div class="home_img hm_img_c1"></div>
+                <div class="home_img hm_img_c2"></div>
+                <div class="home_img hm_img_c3"></div>
+                <div class="home_img hm_img_c4"></div>
+                <div class="home_img hm_img_c5">
+                    <br>
+                    MENU
+                    <br>
+                    <br>----------
+                    <br>----------
+                    <br>----------
+                </div>
+                <div class="home_img hm_img_c6"></div>
+                <div class="home_img hm_img_c7"></div>
+            </div>
+        </a>
+        <a href="menu.html" style="all:unset">
+            <div class="home_section home_featured">
+                <h2 style="grid-column-start: 1; grid-column-end: 6;">Featured</h2>
+                <div class="home_img hm_img_p1"></div>
+                <div class="home_img hm_img_p2"></div>
+                <div class="home_img hm_img_p3"></div>
+                <div class="home_img hm_img_p4"></div>
+                <div class="home_img hm_img_p5"></div>
+                <div class="home_img hm_img_p6"></div>
+            </div>
+        </a>
     </section>
 
-    <section id="menu" class="menu">
-        <h2>Our Menu</h2>
-        <!-- Add menu items here -->
-    </section>
-
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>Discover the story behind CozyCup Café...</p>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or feedback? Reach out to us...</p>
-    </section>
+    <!--Homepage Footer-->
+        <footer>
+            <div class="signup-form">
+                <h3>Sign Up for Our Newsletter</h3>
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </footer>
+    
+<!--Footer & Navigation-->
+    <footer>
+        <a href="index.html" class="cta-button">Home</a> 
+        <a href="menu.html" class="cta-button">Menu</a> 
+        <a href="about.html" class="cta-button">About Us</a> 
+        <a href="contact.html" class="cta-button">Contact Us</a> 
+        <div class="social-links">
+            <a href="index.html" target="_blank">
+                <img src="img/fblogo.svg" alt="fb" height="45">
+            </a>
+            <a href="index.html" target="_blank">
+                <img src="img/github.svg" alt="github" height="50">
+            </a>
+            <a href="index.html" target="_blank">
+                <img src="img/instagram.svg" alt="instagram" height="45">
+            </a>
+        </div>
+    </footer>
 
     <footer>
-        <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
+        <p>&copy; 2024 CozyCup Café. All rights reserved.</p>
     </footer>
 </body>
 </html>
