@@ -9,13 +9,13 @@ and practicing Virtual Control System with our fellow classmates as collaborator
 ![Home Page](img/main.png)
 This shows the interior of the cafe.
 
-![Menu](img/Menu.png)
+![Menu](img/menu.png)
 This shows the different kind of pastries and drinks. 
 
-![About Us](/img/About.png)
+![About Us](/img/about.png)
 This shows the information of the owners. 
 
-![Contact](img/Contact.png)
+![Contact](img/contact.png)
 This shows the contact information of the cafe. 
 
 
