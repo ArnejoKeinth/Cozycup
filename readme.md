@@ -6,7 +6,7 @@ and practicing Virtual Control System with our fellow classmates as collaborator
 -To promote our new established project business named cozy cup coffee
 -To established connections with inspiring stories through a cup of coffee in cozy cup coffee
 #  Screen captures 
-![Home Page](img/Home.png)
+![Home Page](img/main.png)
 This shows the interior of the cafe.
 
 ![Menu](img/Menu.png)
@@ -17,6 +17,9 @@ This shows the information of the owners.
 
 ![Contact](img/Contact.png)
 This shows the contact information of the cafe. 
+
+
+## About the Authors
 <div style="display: flex; align-items: center; justify-content: space-between;">
 
 <div style="text-align: center;">
@@ -33,29 +36,27 @@ This shows the contact information of the cafe.
 
 </div>
 
+
 ## Socials
-<div>
-
-<a href="https://www.facebook.com/synn.kb" style="display: inline-flex; align-items: center; text-decoration: none; margin-right: 20px;">
-    <img src="img/fblogo.svg" width="35" style="margin-right: 5px;">
-    Keinth Arnejo
-</a>
-
-<a href="https://www.facebook.com/profile.php?id=100070879459309&mibextid=ZbWKwL" style="display: inline-flex; align-items: center; text-decoration: none;">
-    <img src="img/fblogo.svg" width="35" style="margin-right: 5px;">
-    Aneza Jamion
-</a>
-
-<a href="https://github.com/ArnejoKeinth" style="display: inline-flex; align-items: center; text-decoration: none; margin-right: 20px;">
-    <img src="img/github.svg" width="40" style="margin-right: 5px;">
-    ArnejoKeinth
-</a>
-
-<a href="https://github.com/zha7nea" style="display: inline-flex; align-items: center; text-decoration: none;">
-    <img src="img/github.svg" width="40" style="margin-right: 5px;">
-    zha7nea
-</a>
-
+<div style="display: flex; flex-direction: column;">
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+        <a href="https://www.facebook.com/synn.kb" style="display: inline-flex; align-items: center; text-decoration: none; margin-right: 20px;">
+            <img src="img/fblogo.svg" width="35" style="margin-right: 5px;">
+            Keinth Arnejo
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100070879459309&mibextid=ZbWKwL" style="display: inline-flex; align-items: center; text-decoration: none;">
+            <img src="img/fblogo.svg" width="35" style="margin-right: 5px;">
+            Aneza Jamion
+        </a>
+    </div>
+    <div style="display: flex; align-items: center;">
+        <a href="https://github.com/ArnejoKeinth" style="display: inline-flex; align-items: center; text-decoration: none; margin-right: 20px;">
+            <img src="img/github.svg" width="40" style="margin-right: 5px;">
+            ArnejoKeinth
+        </a>
+        <a href="https://github.com/zha7nea" style="display: inline-flex; align-items: center; text-decoration: none;">
+            <img src="img/github.svg" width="40" style="margin-right: 5px;">
+            zha7nea
+        </a>
+    </div>
 </div>
-
-
